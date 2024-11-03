@@ -54,3 +54,23 @@ disp("median: ");
 disp(median(ncarr));
 disp("max: ");
 disp(max(ncarr));
+
+%% Extension to polyline and polygon (see section 5.1)
+
+% for polyline
+fnln="data-polyline-polygon/River_JiangsuProvince.shp";
+sln=shaperead(fnln);
+wln=ConstructWatermark(sln);
+
+% for polygon
+fnpg="data-polyline-polygon/AdminDivision_HenanProvince.shp";
+spg=shaperead(fnpg);
+wpg=ConstructWatermark(spg);
+
+% calculate NC between them with w0 to validate the uniqueness
+disp("for polyline: ");
+disp(GetNC2(wln,w0));
+
+disp("for polygon: ");
+disp(GetNC2(wpg,w0));
+
