@@ -2,7 +2,7 @@
 
 This repository contains the implementation of a zero watermarking algorithm for vector geographic data, specifically designed for point, polyline, and polygon data. The algorithm provides robust watermarking for geographic information security and is adaptable to sparse and unevenly distributed points.
 
-## Please cite the article
+## Please Cite the Article
 
 Qifei Zhou, Qiang Zhao, Yingchen She, Wen Yang, Luanyun Hu, Weitong Chen, Na Ren, and Changqing Zhu. 2025. “Zero Watermarking for Vector Geographic Point Data Based on Convex Layers.” Computers & Geosciences 196(2): 105861. doi:[10.1016/j.cageo.2025.105861](https://doi.org/10.1016/j.cageo.2025.105861).
 
